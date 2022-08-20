@@ -16,8 +16,8 @@ except:
     from telethon import errors
 print("run on python " + os.sys.version)
 sessionName = "MainSession"
-api_id = 421093
-api_hash = "5ae3c9459ecfe61c761c3a6f70584ae5"
+api_id = 2496
+api_hash = "8da85b0d5bfe62527e5b244c209159c3"
 client = TelegramClient(sessionName,api_id,api_hash)
 client.start()
 
